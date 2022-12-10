@@ -2,7 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import cake from './images/cake.jpg';
 import bread from './images/bread.jpg';
 
-function UncontrolledExample() {
+function RecentRecipesCarousel() {
   return (
     <Carousel variant="dark">
       <Carousel.Item>
@@ -46,4 +46,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default RecentRecipesCarousel;

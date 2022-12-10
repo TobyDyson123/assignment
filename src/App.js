@@ -1,5 +1,6 @@
 import './App.css';
 import './title.css';
+import './main-content.css';
 import Title from './title';
 import MainContent from './main-content';
 
