@@ -31,17 +31,6 @@
   padding: 22px;
 }
 
-
-.recent-recipes-container {
-  /* margin-top: 70px; */
-  /* display: flex; */
-  /* justify-content: center; */
-}
-
-.recent-recipes-carousel-container {
-  justify-content: space-between;
-}
-
 .footer {
   background-color: #664242;
   color: #F3F3F3;

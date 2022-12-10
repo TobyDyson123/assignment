@@ -1,10 +1,7 @@
 import './App.css';
-import './carousel.js';
-import Carousel from './carousel';
-import './carousel.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Title from './title';
 import './title.css';
+import Title from './title';
+import MainContent from './main-content';
 
 function App() {
   return (
@@ -15,11 +12,7 @@ function App() {
         <button>Use up your Leftovers</button>
         <button>Build Custom Recipes</button>
       </div>
-      <div className="main-content">
-        <div className="recent-recipes-container">
-          <Carousel />
-        </div>
-      </div>
+      <MainContent />
       <div className="footer">
         <div className="footer-container">
           THIS IS THE FOOTER!
