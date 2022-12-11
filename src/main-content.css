@@ -2,33 +2,3 @@
     text-align: center;
     margin: 150px 0;
 }
-
-.cards-container {
-    height: 500px;
-    width: 80vw;
-    margin: 200px 0 100px 10vw;
-    display: flex;
-}
-
-.cards-container img {
-    height: 100%;
-    width: 500px;
-}
-
-.cards-info {
-    margin: 0px 40px;
-    width: 50%;
-}
-
-.cards-info h1 {
-    margin-bottom: 40px;
-}
-
-.cards-info button {
-    padding: 15px 40px;
-    border-radius: 5px;
-    margin-top: 30px;
-    font-weight: bold;
-    background-color: #FF80C4;
-    border: 1px solid #000;
-}
