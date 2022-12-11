@@ -1,18 +1,16 @@
 import './App.css';
 import './title.css';
 import './main-content.css';
+import './navbar.css';
 import Title from './title';
 import MainContent from './main-content';
+import Navbar from './navbar';
 
 function App() {
   return (
     <div className="App">
       <Title />
-      <div className="nav-container" id="begin-scroll">
-        <button>Explore Recipes</button>
-        <button>Use up your Leftovers</button>
-        <button>Build Custom Recipes</button>
-      </div>
+      <Navbar />
       <MainContent />
       <div className="footer">
         <div className="footer-container">
