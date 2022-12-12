@@ -2,9 +2,11 @@ import './App.css';
 import './title.css';
 import './main-content.css';
 import './navbar.css';
+import './footer.css';
 import Title from './title';
 import MainContent from './main-content';
 import Navbar from './navbar';
+import Footer from './footer';
 
 function App() {
   return (
@@ -12,11 +14,7 @@ function App() {
       <Title />
       <Navbar />
       <MainContent />
-      <div className="footer">
-        <div className="footer-container">
-          THIS IS THE FOOTER!
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 }

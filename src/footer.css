@@ -1,0 +1,23 @@
+.footer {
+    background-color: #664242;
+    color: #F3F3F3;
+    padding: 70px 30px;
+}
+  
+.social-media-container {
+    width: 60%;
+}
+  
+.social-media-container a {
+    position: relative;
+    margin: 10px 50px;
+    font-size: 120px;
+    color: #F3F3F3;
+    top: 0px;
+    transition: top ease 0.3s;
+}
+  
+.social-media-container a:hover {
+    color: #999;
+    top: -10px;
+}
