@@ -215,3 +215,9 @@
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+@media screen and (max-width: 600px) {
+  .about-text {
+    width: 90%;
+  }
+}

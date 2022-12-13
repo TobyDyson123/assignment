@@ -28,3 +28,9 @@
     bottom: 0px;
     width: 200px;
 }
+
+@media screen and (max-width: 1200px) {
+    .logo-white {
+        display: none;
+    }
+}

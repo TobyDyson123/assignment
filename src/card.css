@@ -27,3 +27,13 @@
     background-color: #FF80C4;
     border: 1px solid #000;
 }
+
+@media screen and (max-width: 1200px) {
+    .cards-container img {
+        display: none;
+    }
+
+    .cards-info {
+        width: 90%;
+    }
+}
