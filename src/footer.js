@@ -1,3 +1,5 @@
+import logo_white from './images/logo-white.png';
+
 function Footer() {
     return (
         <div className="footer">
@@ -6,6 +8,7 @@ function Footer() {
                 <a href='#' target="_blank"><i id="instagram" className="fa-brands fa-instagram"></i></a>
                 <a href='#' target="_blank"><i id="facebook" className="fa-brands fa-square-facebook"></i></a>
                 <a href='#' target="_blank"><i id="twitter" className="fa-brands fa-square-twitter"></i></a>
+                <img src={logo_white} className="logo-white"></img>
             </div>
         </div>
     );
