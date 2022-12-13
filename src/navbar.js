@@ -4,7 +4,7 @@ function Navbar() {
             <button>Explore Recipes</button>
             <button>Use up your Leftovers</button>
             <button>Build Custom Recipes</button>
-      </div>
+        </div>
     );
 }
 
