@@ -1,0 +1,13 @@
+.scrolltotop {
+    position: fixed; 
+    width: 100%;
+    right: 50%;
+    transform: translate(20px);
+    bottom: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    z-index: 1;
+    cursor: pointer;
+    color: rgba(0, 0, 0 , 0.75);
+}
