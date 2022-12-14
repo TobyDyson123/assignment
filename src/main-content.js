@@ -1,16 +1,24 @@
 import './carousel.css';
 import './card.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import RecentRecipesCarousel from './carousel.js';
-import PopularDemandCarousel from './carousel.js';
-import SeasonalRecipesCarousel from './carousel.js';
+import { RecentRecipesCarousel, PopularDemandCarousel, SeasonalRecipesCarousel } from './carousel.js';
 import Card from './card.js';
 import cake from './images/cake.jpg';
 import bread from './images/bread.jpg';
+import Axios from "axios";
 
 function MainContent() {
+    const getRecipes = () => {
+        Axios.get("https://get-baking.free.beeceptor.com/recipes").then(
+            (response) => {
+                console.log(response);
+            }
+        );
+    };
+
     return (
         <div className="main-content">
+            <button onClick={getRecipes}>Get Recipes</button>
             <div className="recipes-carousel-container">
                 <h1 className='recipes-title'>Recent Recipes</h1>
                 <RecentRecipesCarousel />

@@ -14,6 +14,7 @@ function RecentRecipesCarousel() {
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -134,4 +135,4 @@ function SeasonalRecipesCarousel() {
   );
 }
 
-export default RecentRecipesCarousel;
+export { RecentRecipesCarousel, PopularDemandCarousel, SeasonalRecipesCarousel }
