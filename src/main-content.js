@@ -11,7 +11,9 @@ function MainContent() {
     const getRecipes = () => {
         Axios.get("https://get-baking.free.beeceptor.com/recipes").then(
             (response) => {
-                console.log(response);
+                response.data.forEach((item) => {
+                    console.log(item);
+                });
             }
         );
     };
