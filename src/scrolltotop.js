@@ -9,7 +9,6 @@ const ScrollButton = () =>{
         const scrolled = document.documentElement.scrollTop;
         if (scrolled > 300){
         setVisible(true)
-        console.log("yes");
         }
         else if (scrolled <= 300){
         setVisible(false)

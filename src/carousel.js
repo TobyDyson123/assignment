@@ -27,6 +27,7 @@ function RecentRecipesCarousel() {
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -41,6 +42,7 @@ function RecentRecipesCarousel() {
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -59,6 +61,7 @@ function PopularDemandCarousel() {
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -71,6 +74,7 @@ function PopularDemandCarousel() {
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -85,6 +89,7 @@ function PopularDemandCarousel() {
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -103,6 +108,7 @@ function SeasonalRecipesCarousel() {
         <Carousel.Caption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -115,6 +121,7 @@ function SeasonalRecipesCarousel() {
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -129,6 +136,7 @@ function SeasonalRecipesCarousel() {
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
+          <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
