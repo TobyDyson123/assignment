@@ -4,22 +4,19 @@ import './main-content.css';
 import './navbar.css';
 import './footer.css';
 import './scrolltotop.css';
-import Title from './title';
-import MainContent from './main-content';
-import Navbar from './navbar';
-import Footer from './footer';
-import ScrollButton from './scrolltotop';
+import Home from './Home.js';
+import ExploreRecipes from './ExploreRecipes';
+import { Routes, Route, Link } from 'react-router-dom';
 
 // https://get-baking.free.beeceptor.com/recipes
 
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Navbar />
-      <ScrollButton />      
-      <MainContent />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route exact path="/explorerecipes" element={<ExploreRecipes />} />
+      </Routes>
     </div>
   );
 }
