@@ -6,32 +6,36 @@
     z-index: 5;
 }
   
-.nav-container button {
+.nav-container a {
     flex: 33.33333%;
+    text-align: center;
     padding: 25px;
     background-color: #FFAEDA;
     border: none;
     font-weight: bold;
     font-size: 20px;
     transition: all 0.25s;
+    text-decoration: none;
+    color: #111;
     /* transition: all 0.15s; */
 }
   
-/* .nav-container button:hover {
+/* .nav-container a:hover {
     background-color: #FCD2E9;
     cursor: pointer;
     font-size: 21px;
     padding: 24px;
 }  */
   
-.nav-container:hover > button:not(:hover){
+.nav-container:hover > a:not(:hover){
     background-color: #FCD2E9;
 }
   
-.nav-container button:hover {
+.nav-container a:hover {
     cursor: pointer;
     font-size: 23px;
     padding: 22px;
+    color: #111;
 }
 
 #menu-icon {

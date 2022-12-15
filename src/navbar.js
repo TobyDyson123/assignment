@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
     const menuClick = () => {
         var elements = document.getElementById("begin-scroll").children;
@@ -18,9 +20,9 @@ function Navbar() {
     return (
         <div className="nav-container" id="begin-scroll">
             <button id="menu-icon" onClick={menuClick}>Menu -</button>
-            <button>Explore Recipes</button>
-            <button>Use up your Leftovers</button>
-            <button>Build Custom Recipes</button>
+            <Link to="/explorerecipes">Explore Recipes</Link>
+            <Link>Use up your Leftovers</Link>
+            <Link>Build Custom Recipes</Link>
         </div>
     );
 }

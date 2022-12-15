@@ -6,7 +6,7 @@ import './footer.css';
 import './scrolltotop.css';
 import Home from './Home.js';
 import ExploreRecipes from './ExploreRecipes';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 // https://get-baking.free.beeceptor.com/recipes
 
