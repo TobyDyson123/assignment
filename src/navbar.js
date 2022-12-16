@@ -22,7 +22,7 @@ function Navbar() {
             <button id="menu-icon" onClick={menuClick}>Menu -</button>
             <Link to="/explorerecipes">Explore Recipes</Link>
             <Link to="/leftovers">Use up your Leftovers</Link>
-            <Link>Build Custom Recipes</Link>
+            <Link to="/customrecipes">Build Custom Recipes</Link>
         </div>
     );
 }
