@@ -1,6 +1,6 @@
 function Leftovers() {
     return (
-        <div className="leftovers">Hello mate</div>
+        <div className="leftovers">Leftovers</div>
     );
 }
 
