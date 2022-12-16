@@ -6,6 +6,7 @@ import './footer.css';
 import './scrolltotop.css';
 import Home from './Home.js';
 import ExploreRecipes from './ExploreRecipes';
+import Leftovers from './Leftovers';
 import { Routes, Route } from 'react-router-dom';
 
 // https://get-baking.free.beeceptor.com/recipes
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route exact path="/explorerecipes" element={<ExploreRecipes />} />
+        <Route exact path="/leftovers" element={<Leftovers />} />
       </Routes>
     </div>
   );

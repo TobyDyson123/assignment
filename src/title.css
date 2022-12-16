@@ -1,6 +1,6 @@
 .title-container {
     background-color: #FF80C4;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
 }
   
 .logo-container {
