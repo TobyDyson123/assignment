@@ -88,13 +88,13 @@ function PopularDemandCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={cake}
+          src={data[5].images[0]}
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>{data[5].name}</h3>
+          <p>{data[5].description}</p>
           <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>

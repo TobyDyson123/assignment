@@ -542,5 +542,108 @@
                 "Desert",
                 "Kid Friendly"
         ]
+    },
+    {
+        "uuid": "1597c678-1da8-4465-8d6b-c4dd370c27b2",
+        "created": "2021-10-11T12:05:40.548782+00:00",
+        "author": "Jane Hornby",
+        "name": "Classic Scones with Jam & Clotted Cream",
+        "difficulty": "Easy",
+        "cook-time": "PT10M",
+        "prep-time": "PT5M",
+        "yield": "8",
+        "description": "You can have a batch of scones on the table in 20 minutes with Jane Hornby's storecupboard recipe, perfect for unexpected guests",
+        "images": [
+            "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001500_10-16f94ee.jpg?quality=90&webp=true&resize=300,272"
+            ],
+        "ingredients": [
+            {
+                "ingredient": "self-raising flour",
+                "measurement-weight": 350,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "baking powder",
+                "measurement-weight": 1,
+                "measurement-type": "tsp",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "butter",
+                "measurement-weight": 85,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "caster sugar",
+                "measurement-weight": 3,
+                "measurement-type": "tbsp",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "milk",
+                "measurement-weight": 175,
+                "measurement-type": "ml",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "vanilla extract",
+                "measurement-weight": 1,
+                "measurement-type": "tsp",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "beaten egg",
+                "measurement-weight": null,
+                "measurement-type": null,
+                "measurement-size": 1,
+                "note": null
+            },
+            {
+                "ingredient": "jam & clotted cream, to serve",
+                "measurement-weight": null,
+                "measurement-type": null,
+                "measurement-size": null,
+                "note": null
+            }
+        ],
+        "instructions": [
+            {
+            "steps": [
+                    "Heat the oven to 220C/200C fan/gas 7. Tip the self-raising flour into a large bowl with ¼ tsp salt and the baking powder, then mix.",                
+                    "Add the butter, then rub in with your fingers until the mix looks like fine crumbs. Stir in the caster sugar.",                
+                    "Put the milk into a jug and heat in the microwave for about 30 secs until warm, but not hot. Add the vanilla extract and a squeeze of lemon juice, then set aside for a moment.",                
+                    "Put a baking tray in the oven. Make a well in the dry mix, then add the liquid and combine it quickly with a cutlery knife – it will seem pretty wet at first.",                
+                    "Scatter some flour onto the work surface and tip the dough out. Dredge the dough and your hands with a little more flour, then fold the dough over 2-3 times until it’s a little smoother. Pat into a round about 4cm deep. Take a 5cm cutter (smooth-edged cutters tend to cut more cleanly, giving a better rise) and dip it into some flour. Plunge into the dough, then repeat until you have four scones. You may need to press what’s left of the dough back into a round to cut out another four.",                
+                    "Brush the tops with a beaten egg, then carefully arrange on the hot baking tray. Bake for 10 mins until risen and golden on the top. Eat just warm or cold on the day of baking, generously topped with jam and clotted cream. If freezing, freeze once cool. Defrost, then put in a low oven (about 160C/140C fan/gas 3) for a few minutes to refresh."      
+                ]
+            }
+        ],
+        "secondary-instructions": [
+        ],
+        "nutrition": [
+            {
+                "serving": "Per serving (1)",
+                "kcal": "268",
+                "fat": "10g",
+                "saturates": "6g",
+                "carbs": "41g",
+                "sugars": "8g",
+                "fibre": "1g",
+                "protein": "6g",
+                "salt": "0.9g"
+            }
+        ],
+        "categories": [
+                "Desert",
+                "Cake"
+        ]
     }
 ]
