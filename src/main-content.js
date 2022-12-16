@@ -5,6 +5,7 @@ import { RecentRecipesCarousel, PopularDemandCarousel, SeasonalRecipesCarousel }
 import Card from './card.js';
 import cake from './images/cake.jpg';
 import bread from './images/bread.jpg';
+import pastry from './images/pastry.jpg';
 import Axios from "axios";
 
 function MainContent() {
@@ -20,7 +21,6 @@ function MainContent() {
 
     return (
         <div className="main-content">
-            <button onClick={getRecipes}>Get Recipes</button>
             <div className="recipes-carousel-container">
                 <h1 className='recipes-title'>Recent Recipes</h1>
                 <RecentRecipesCarousel />
@@ -43,7 +43,7 @@ function MainContent() {
                     In ante ex, congue et quam cursus, vestibulum dictum mi. Pellentesque cursus risus risus, at mollis nisi eleifend eget. 
                     Donec blandit justo ac vestibulum mattis. Aliquam nec scelerisque nulla, ac viverra lacus. Etiam eu ornare metus. 
                     Morbi ac tristique justo. Proin placerat interdum leo ac efficitur." />
-            <Card title="Build Custom Recipes" src={cake} alt="picture of cake"
+            <Card title="Build Custom Recipes" src={pastry} alt="picture of pastry"
                     content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ex a quam commodo interdum laoreet eu orci. 
                     In ante ex, congue et quam cursus, vestibulum dictum mi. Pellentesque cursus risus risus, at mollis nisi eleifend eget. 
                     Donec blandit justo ac vestibulum mattis. Aliquam nec scelerisque nulla, ac viverra lacus. Etiam eu ornare metus. 
