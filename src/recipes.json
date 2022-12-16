@@ -350,5 +350,197 @@
                 "Side Dish",
                 "Syrup"
         ]
+    },
+    {
+        "uuid": "ec778faa-7d63-11ed-a1eb-0242ac120002",
+        "created": "2021-10-11T12:05:40.548782+00:00",
+        "author": "Mary Berry",
+        "name": "Banoffee Pie",
+        "difficulty": "Easy",
+        "cook-time": "PT5M",
+        "prep-time": "PT2H",
+        "yield": "8-12",
+        "description": "Mary Berry's ultimate recipe for Banoffee Pie, as seen on her BBC 1 series, Classic, will help you master this famous dessert combining flavours of banana, toffee and chocolate.",
+        "images": [
+            "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/mary-berry-banoffee-pie-recipe-classic-e63fba90-5d4b-4f0f-a2f7-d49e8e070093_s900x0_c4320x2524_l0x3091.jpg"
+            ],
+        "ingredients": [
+            {
+                "ingredient": "digestive biscuits",
+                "measurement-weight": 150,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "butter",
+                "measurement-weight": 150,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "light muscovado sugar",
+                "measurement-weight": 75,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "tin of full-fat condensed milk",
+                "measurement-weight": null,
+                "measurement-type": null,
+                "measurement-size": 1,
+                "note": null
+            },
+            {
+                "ingredient": "vanilla extract",
+                "measurement-weight": 1,
+                "measurement-type": "tsp",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "small just-ripe bananas",
+                "measurement-weight": null,
+                "measurement-type": null,
+                "measurement-size": 3,
+                "note": null
+            },
+            {
+                "ingredient": "double cream",
+                "measurement-weight": 300,
+                "measurement-type": "ml",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "dark chocolate",
+                "measurement-weight": 50,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            }
+        ],
+        "instructions": [
+            {
+            "steps": [
+                    "Line the sides of the tin with strips of cling film (using a little water to help the cling film stick) and then line the base with a disc of baking paper.",                
+                    "First make the pie base. Place the biscuits in a freezer bag and finely crush with a rolling pin. Melt the butter in a non-stick saucepan over a low heat, add the biscuits and combine. Spoon into the base of the tin, pressing down with the back of the spoon to level. Chill for 15 minutes.",                
+                    "To make the filling, heat the butter and sugar in the same pan and stir over a low heat until combined. Add the condensed milk and bring to the boil and boil, stirring continuously, for 2–3 minutes or until dark golden, taking care that the mixture doesn’t catch on the bottom. Do not allow to boil for too long or it will become grainy. Add the vanilla extract and pour into the tin. Chill in the fridge for a minimum of 1 hour or up to 24 hours.",                
+                    "Peel and slice the bananas and arrange in neat rounds on top of the caramel. Whip the cream to soft peaks and spoon or pipe it over the bananas, then level the top before chilling in the fridge for an hour.",                
+                    "Meanwhile, melt the chocolate in a bowl set over pan of gently simmering water. Remove from the heat and allow to cool.",                
+                    "Remove the edges of the tin from the banoffee pie, peel off the cling film and transfer to a serving plate, slipping the baking paper from underneath. Zigzag the melted chocolate over the top (if using), making sure it’s cool or it will melt the cream, or dust with cocoa powder."               
+                ]
+            }
+        ],
+        "secondary-instructions": [
+        ],
+        "nutrition": [
+        ],
+        "categories": [
+                "Desert",
+                "Pie"
+        ]
+    },
+    {
+        "uuid": "778f6443-67e9-4870-be39-d7dc9308c540",
+        "created": "2021-10-11T12:05:40.548782+00:00",
+        "author": "James Morton",
+        "name": "Yum Yums",
+        "difficulty": "Easy",
+        "cook-time": "PT15M",
+        "prep-time": "PT4H",
+        "yield": "14-16",
+        "description": "Making home-made yum yums is a perfect weekend cooking project. Learn new skills and enjoy devouring the results.",
+        "images": [
+            "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/james-morton-yum-yums_s900x0_c1974x1153_l0x112.jpg"
+            ],
+        "ingredients": [
+            {
+                "ingredient": "strong white bread flour",
+                "measurement-weight": 500,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "salt",
+                "measurement-weight": 8,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "fast-acting yeast",
+                "measurement-weight": 14,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "sugar",
+                "measurement-weight": 30,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "unsalted butter",
+                "measurement-weight": 30,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "warm water",
+                "measurement-weight": 250,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "medium egg",
+                "measurement-weight": null,
+                "measurement-type": null,
+                "measurement-size": 1,
+                "note": null
+            },
+            {
+                "ingredient": "icing sugar",
+                "measurement-weight": 250,
+                "measurement-type": "g",
+                "measurement-size": null,
+                "note": null
+            },
+            {
+                "ingredient": "lemon juice",
+                "measurement-weight": 4,
+                "measurement-type": "tbsp",
+                "measurement-size": null,
+                "note": null
+            }
+        ],
+        "instructions": [
+            {
+            "steps": [
+                    "In a large bowl, weigh out the flour, salt and yeast. Lightly rub the salt and yeast into the flour on opposite sides of the bowl, then rub in the sugar.",                
+                    "Add the diced butter to the flour and don’t rub it in – you don’t want it like breadcrumbs. Just lightly stir the butter into the flour.",                
+                    "Add the water and the egg to your mixture and mix using a wooden spoon until it begins to come together. Then, use your hands to mix until your dough has mopped up all the flour. Cover your bowl with clingfilm (or a wet tea towel) and rest for at least 30 minutes at room temperature.",                
+                    "Once the dough is rested, it’s time to laminate. Flour a work surface and roll your yum yum dough out into a long rectangle. Turn your rectangle so the long side is facing you. Take both ends, and fold them into the middle. Then, close the whole thing like a book. Roll out again and repeat the whole folding process until your lumps of butter have disappeared, about 2–4 times. Wrap your laminated dough in cling film and put in the fridge for another half an hour to rest.",                
+                    "Once rested, roll your dough out one final time on a floured surface into a big rectangle. Cut into strips of your desired size. To each strip, make a cut down its length, but leaving at least 2.5cm attached at both ends. Twist this round into a yum yum shape as shown overleaf.",                
+                    "Leave to rest on an oiled surface in a warm place for at least an hour, until doubled in size. Near the end of the rest, make the icing by mixing the icing sugar and water. Then, heat your oil in a large heavy-bottomed pan (or deep fryer) to 170°C.",
+                    "Fry your yum yums until a golden brown on each side. As soon as they’re done, remove from the oil and brush liberally with the icing. Leave to cool completely on a cooling rack before enjoying."       
+                ]
+            }
+        ],
+        "secondary-instructions": [
+        ],
+        "nutrition": [
+        ],
+        "categories": [
+                "Desert",
+                "Kid Friendly"
+        ]
     }
 ]

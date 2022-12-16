@@ -34,20 +34,11 @@ function MainContent() {
                 <PopularDemandCarousel />
             </div>
             <Card title="Explore Recipes" src={cake} alt="picture of cake" 
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ex a quam commodo interdum laoreet eu orci. 
-                            In ante ex, congue et quam cursus, vestibulum dictum mi. Pellentesque cursus risus risus, at mollis nisi eleifend eget. 
-                            Donec blandit justo ac vestibulum mattis. Aliquam nec scelerisque nulla, ac viverra lacus. Etiam eu ornare metus. 
-                            Morbi ac tristique justo. Proin placerat interdum leo ac efficitur." />
+                    content="Not sure exactly what it is you're looking for? Search existing recipes to find the perfect one for your appetite." />
             <Card title="Use up your Leftovers" src={bread} alt="picture of bread"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ex a quam commodo interdum laoreet eu orci. 
-                    In ante ex, congue et quam cursus, vestibulum dictum mi. Pellentesque cursus risus risus, at mollis nisi eleifend eget. 
-                    Donec blandit justo ac vestibulum mattis. Aliquam nec scelerisque nulla, ac viverra lacus. Etiam eu ornare metus. 
-                    Morbi ac tristique justo. Proin placerat interdum leo ac efficitur." />
+                    content="Finished baking and have some leftovers? Why not see what else you can make without having to spend another penny!" />
             <Card title="Build Custom Recipes" src={pastry} alt="picture of pastry"
-                    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non ex a quam commodo interdum laoreet eu orci. 
-                    In ante ex, congue et quam cursus, vestibulum dictum mi. Pellentesque cursus risus risus, at mollis nisi eleifend eget. 
-                    Donec blandit justo ac vestibulum mattis. Aliquam nec scelerisque nulla, ac viverra lacus. Etiam eu ornare metus. 
-                    Morbi ac tristique justo. Proin placerat interdum leo ac efficitur." />
+                    content="Looking to create the next best thing since sliced bread? Why not try to build your own custom recipes!" />
         </div>
     );
 }

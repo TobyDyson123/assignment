@@ -76,12 +76,12 @@ function PopularDemandCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={bread}
+          src={data[4].images[0]}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>{data[4].name}</h3>
+          <p>{data[4].description}</p>
           <button>Show me more!</button>
         </Carousel.Caption>
       </Carousel.Item>

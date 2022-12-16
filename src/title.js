@@ -16,13 +16,10 @@ function Title() {
             </div>
             <div className="about-container">
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Nam maximus ornare felis, eu lobortis odio. 
-                    Integer eget semper arcu, sit amet tincidunt mi. 
-                    Nulla tortor erat, tristique at vestibulum sit amet, vestibulum ut felis. 
-                    Nulla accumsan sapien vitae felis lacinia commodo. 
-                    Nulla justo sem, placerat nec tempor at, vulputate non urna. 
-                    Nunc id pellentesque ligula. Mauris euismod arcu at enim imperdiet, sit amet blandit neque cursus. 
+                    Get Baking! is an organisation who are on a mission
+                    to get more people to bake at home. So if you are interested
+                    in baking or want to learn more about the exciting recipes
+                    available then look no further!
                 </p>
             </div>
             <div className="begin-button-container">
