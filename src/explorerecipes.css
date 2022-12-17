@@ -42,6 +42,7 @@
     transform: translateX(-50%);
     text-shadow: 1px 0 #FFAEDA, -1px 0 #FFAEDA, 0 1px #FFAEDA, 0 -1px #FFAEDA;
     font-size: 25px;
+    text-align: center;
 }
 
 .recipes-container button {
@@ -63,4 +64,36 @@
     background-color: #FF80C4;
     color: #111;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1400px) {
+    .recipes-container {
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        grid-template-areas: 
+            ". ."
+            ". ."
+            ". ."
+            ". ."; 
+    }
+
+    .recipe-card-container p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .recipes-container {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        grid-template-areas: 
+            "."
+            "."
+            "."
+            "."; 
+    }
+
+    .recipe-card-container p {
+        font-size: 20px;
+    }
 }
