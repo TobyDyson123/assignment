@@ -1,7 +1,9 @@
+import CollapsibleExample from "./test.js";
+
 function ExploreRecipes() {
     return (
         <div className="explore-recipes">
-            Greetings!
+            <CollapsibleExample />
         </div>
     );
 }

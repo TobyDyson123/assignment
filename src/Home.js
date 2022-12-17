@@ -1,14 +1,15 @@
 import Title from './title';
 import MainContent from './main-content';
-import Navbar from './navbar';
 import Footer from './footer';
 import ScrollButton from './scrolltotop';
+import CollapsibleExample from './test.js';
 
 function Home() {
     return (
         <div className='Home'>
             <Title />
-            <Navbar />
+            {/* <Navbar /> */}
+            <CollapsibleExample />
             <ScrollButton />      
             <MainContent />
             <Footer />
