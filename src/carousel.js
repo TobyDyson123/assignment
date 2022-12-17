@@ -1,6 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import cake from './images/cake.jpg';
-import bread from './images/bread.jpg';
 import Axios from "axios";
 import { useEffect, useState } from 'react';
 import data from './recipes.json';
@@ -10,9 +8,9 @@ function RecentRecipesCarousel() {
 
   const url = "https://get-baking.free.beeceptor.com/recipes";
 
-  useEffect(() => {
-    getFirstItem();
-  }, []);
+  // useEffect(() => {
+  //   getFirstItem();
+  // }, []);
 
   const getFirstItem = () => {
     Axios.get(url)

@@ -1,6 +1,10 @@
+import CollapsibleExample from "./test.js";
+
 function CustomRecipes() {
     return(
-        <div className="custom-recipes">Custom Recipes</div>
+        <div className="custom-recipes">
+            <CollapsibleExample />
+        </div>
     );
 }
 

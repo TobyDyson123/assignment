@@ -1,6 +1,10 @@
+import CollapsibleExample from "./test.js";
+
 function Leftovers() {
     return (
-        <div className="leftovers">Leftovers</div>
+        <div className="leftovers">
+            <CollapsibleExample />
+        </div>
     );
 }
 

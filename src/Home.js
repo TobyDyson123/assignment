@@ -7,9 +7,9 @@ import CollapsibleExample from './test.js';
 function Home() {
     return (
         <div className='Home'>
-            <Title />
-            {/* <Navbar /> */}
             <CollapsibleExample />
+            <Title />
+            <div id="begin-scroll" style={{visibility: "hidden"}}></div>
             <ScrollButton />      
             <MainContent />
             <Footer />
