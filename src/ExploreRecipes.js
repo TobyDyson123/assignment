@@ -15,13 +15,17 @@ function ExploreRecipes() {
     const scones = document.getElementById("scones");
 
     const resetFilter = () => {
-        mincePies.style.display = "block";
-        burgerBuns.style.display = "block";
-        babka.style.display = "block";
-        syrup.style.display = "block";
-        banoffeePie.style.display = "block";
-        yumyum.style.display = "block";
-        scones.style.display = "block";
+        try {
+            mincePies.style.display = "block";
+            burgerBuns.style.display = "block";
+            babka.style.display = "block";
+            syrup.style.display = "block";
+            banoffeePie.style.display = "block";
+            yumyum.style.display = "block";
+            scones.style.display = "block";
+        } catch(err) {
+            alert("Filter functionality will be restored shortly once content has loaded.");
+        }
     }
 
     const desertRecipes = () => {
@@ -107,7 +111,7 @@ function ExploreRecipes() {
             <h1>Explore Recipes</h1>
             <div className="explore-recipes-content-container">
                 <div className="dropdown-container">
-                    <RecipesDropdown func={[desertRecipes, christmasRecipes, breadRecipes, kidFriendlyRecipes, cakeRecipes, pieRecipes, traditionalRecipes, sideDishRecipes]}/>
+                    <RecipesDropdown id="dropdown" func={[desertRecipes, christmasRecipes, breadRecipes, kidFriendlyRecipes, cakeRecipes, pieRecipes, traditionalRecipes, sideDishRecipes]}/>
                     <button id="reset-button" onClick={resetFilter}>Reset Filter</button>
                 </div>
                 <div className="recipes-container">

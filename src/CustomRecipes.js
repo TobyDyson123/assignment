@@ -5,6 +5,7 @@ function CustomRecipes() {
     return(
         <div className="custom-recipes">
             <CollapsibleExample />
+            <h1 style={{minHeight: "100vh"}}>COMING SOON</h1>
             <Footer />
         </div>
     );
