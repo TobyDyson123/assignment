@@ -1,9 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { HashRouter } from 'react-router-dom';
 
 function CollapsibleExample() {
   return (
+    <HashRouter>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
         <Navbar.Brand href="/interactive-web">Get Baking!</Navbar.Brand>
@@ -17,6 +19,7 @@ function CollapsibleExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </HashRouter>
   );
 }
 
