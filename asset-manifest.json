@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/interactive-web/static/css/main.33c3699a.css",
+    "main.js": "/interactive-web/static/js/main.76acaccf.js",
+    "static/js/787.0420ccf9.chunk.js": "/interactive-web/static/js/787.0420ccf9.chunk.js",
+    "static/media/fa-solid-900.ttf": "/interactive-web/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/interactive-web/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/interactive-web/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/interactive-web/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/logo-white.png": "/interactive-web/static/media/logo-white.e5609cf9e5b968a6e494.png",
+    "static/media/logo-black.png": "/interactive-web/static/media/logo-black.d28b039739f5ad613541.png",
+    "static/media/bread.jpg": "/interactive-web/static/media/bread.eb19211fd3d8dc475af1.jpg",
+    "static/media/fa-regular-400.ttf": "/interactive-web/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/cake.jpg": "/interactive-web/static/media/cake.0af1ac8fcf8ceef6d577.jpg",
+    "static/media/fa-regular-400.woff2": "/interactive-web/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/interactive-web/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/interactive-web/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/interactive-web/index.html",
+    "main.33c3699a.css.map": "/interactive-web/static/css/main.33c3699a.css.map",
+    "main.76acaccf.js.map": "/interactive-web/static/js/main.76acaccf.js.map",
+    "787.0420ccf9.chunk.js.map": "/interactive-web/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33c3699a.css",
+    "static/js/main.76acaccf.js"
+  ]
+}
