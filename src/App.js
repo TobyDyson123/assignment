@@ -15,7 +15,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/interactive-web">
+      <HashRouter basename="/interactive-web/">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/explorerecipes" element={<ExploreRecipes />} />
