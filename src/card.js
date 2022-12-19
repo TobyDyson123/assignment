@@ -1,5 +1,7 @@
+import { LinkContainer } from 'react-router-bootstrap';
+
 const Card = (props) => {
-    const { title, content, src, alt } = props;
+    const { title, content, src, alt, to } = props;
 
     return (
         <div className="cards-container">
@@ -9,7 +11,9 @@ const Card = (props) => {
                 <p>
                     {content}
                 </p>
-                <button className='cards-button'>Take me there!</button>
+                <LinkContainer to={to}>
+                    <button className='cards-button'>Take me there!</button>
+                </LinkContainer>
             </div>
         </div>
     );
