@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 console.log("HI");
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("https://tobydyson123.github.io/interactive-web"));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
