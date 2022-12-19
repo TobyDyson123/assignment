@@ -17,9 +17,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path="/interactive-web" element={<Home />} />
-        <Route path="/explorerecipes" element={<ExploreRecipes />} />
-        <Route path="/leftovers" element={<Leftovers />} />
-        <Route path="/customrecipes" element={<CustomRecipes />} />
+        <Route path="/interactive-web/explorerecipes" element={<ExploreRecipes />} />
+        <Route path="/interactive-web/leftovers" element={<Leftovers />} />
+        <Route path="/interactive-web/customrecipes" element={<CustomRecipes />} />
       </Routes>
     </div>
   );

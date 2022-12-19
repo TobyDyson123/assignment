@@ -10,9 +10,9 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/explorerecipes">Explore Recipes</Nav.Link>
-            <Nav.Link href="/leftovers">Use up your Leftovers</Nav.Link>
-            <Nav.Link href="/customrecipes">Build Custom Recipes</Nav.Link>
+            <Nav.Link href="/interactive-web/explorerecipes">Explore Recipes</Nav.Link>
+            <Nav.Link href="/interactive-web/leftovers">Use up your Leftovers</Nav.Link>
+            <Nav.Link href="/interactive-web/customrecipes">Build Custom Recipes</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
