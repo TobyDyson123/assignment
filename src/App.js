@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/interactive-web" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/explorerecipes" element={<ExploreRecipes />} />
         <Route path="/leftovers" element={<Leftovers />} />
         <Route path="/customrecipes" element={<CustomRecipes />} />

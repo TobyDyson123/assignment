@@ -6,7 +6,7 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
-        <Navbar.Brand href="/interactive-web">Get Baking!</Navbar.Brand>
+        <Navbar.Brand href="/">Get Baking!</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
