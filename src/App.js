@@ -8,7 +8,7 @@ import Home from './Home.js';
 import ExploreRecipes from './ExploreRecipes';
 import Leftovers from './Leftovers';
 import CustomRecipes from './CustomRecipes';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // https://get-baking.free.beeceptor.com/recipes
 
