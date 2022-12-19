@@ -15,14 +15,14 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/interactive-web/">
+      <BrowserRouter basename="/interactive-web">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/explorerecipes" element={<ExploreRecipes />} />
           <Route path="/leftovers" element={<Leftovers />} />
           <Route path="/customrecipes" element={<CustomRecipes />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }

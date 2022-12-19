@@ -7,13 +7,13 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
       <Container>
-      <LinkContainer><Navbar.Brand href="https://tobydyson123.github.io/interactive-web/#/">Get Baking!</Navbar.Brand></LinkContainer>
+      <LinkContainer to="/"><Navbar.Brand>Get Baking!</Navbar.Brand></LinkContainer>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <LinkContainer><Nav.Link href="https://tobydyson123.github.io/interactive-web/#/explorerecipes">Explore Recipes</Nav.Link></LinkContainer>
-            <LinkContainer><Nav.Link href="https://tobydyson123.github.io/interactive-web/#/leftovers">Use up your Leftovers</Nav.Link></LinkContainer>
-            <LinkContainer><Nav.Link href="https://tobydyson123.github.io/interactive-web/#/customrecipes">Build Custom Recipes</Nav.Link></LinkContainer>
+            <LinkContainer to="/explorerecipes"><Nav.Link>Explore Recipes</Nav.Link></LinkContainer>
+            <LinkContainer to="/leftovers"><Nav.Link>Use up your Leftovers</Nav.Link></LinkContainer>
+            <LinkContainer to="/customrecipes"><Nav.Link>Build Custom Recipes</Nav.Link></LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
