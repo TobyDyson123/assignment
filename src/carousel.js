@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Axios from "axios";
 import { useEffect, useState } from 'react';
 import data from './recipes.json';
+import { Link } from "react-router-dom";
 
 function RecentRecipesCarousel() {
   const [recipes, getRecipes] = useState('');
@@ -33,7 +34,7 @@ function RecentRecipesCarousel() {
         <Carousel.Caption>
           <h3>{data[0].name}</h3>
           <p>{data[0].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[0].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -46,7 +47,7 @@ function RecentRecipesCarousel() {
         <Carousel.Caption>
           <h3>{data[1].name}</h3>
           <p>{data[1].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[1].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -61,7 +62,7 @@ function RecentRecipesCarousel() {
           <p>
             {data[2].description}
           </p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[2].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -80,7 +81,7 @@ function PopularDemandCarousel() {
         <Carousel.Caption>
           <h3>{data[4].name}</h3>
           <p>{data[4].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[4].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -93,7 +94,7 @@ function PopularDemandCarousel() {
         <Carousel.Caption>
           <h3>{data[5].name}</h3>
           <p>{data[5].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[5].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -108,7 +109,7 @@ function PopularDemandCarousel() {
           <p>
             {data[6].description}
           </p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[6].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -127,7 +128,7 @@ function SeasonalRecipesCarousel() {
         <Carousel.Caption>
           <h3>{data[2].name}</h3>
           <p>{data[2].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[2].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -140,7 +141,7 @@ function SeasonalRecipesCarousel() {
         <Carousel.Caption>
           <h3>{data[0].name}</h3>
           <p>{data[0].description}</p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[0].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -155,7 +156,7 @@ function SeasonalRecipesCarousel() {
           <p>
             {data[3].description}
           </p>
-          <button>Show me more!</button>
+          <Link to={`/explorerecipes/${data[3].uuid}`}><button>Show me more!</button></Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
