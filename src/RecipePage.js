@@ -1,6 +1,5 @@
-import Footer from "./footer";
-import CollapsibleExample from "./test";
-import { useEffect, useParams } from "react";
+import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import data from './recipes.json';
 
 function RecipePage() {
@@ -22,7 +21,8 @@ function RecipePage() {
 
     return (
         <div>
-            <h1>{Name}</h1>
+            <h1>Recipe Name:</h1>
+            <h3>{Name}</h3>
         </div>
     )
 }

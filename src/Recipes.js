@@ -112,13 +112,13 @@ function Recipes() {
                     <button id="reset-button" onClick={resetFilter}>Reset Filter</button>
                 </div>
                 <div className="recipes-container">
-                    <div id="mince-pies"><RecipeGridCards img={data[0].images[0]} name={data[0].name} link={`/interactive-web/explorerecipes/${data[0].uuid}`} /></div>
-                    <div id="burger-buns"><RecipeGridCards img={data[1].images[0]} name={data[1].name} link={`/interactive-web/explorerecipes/${data[1].uuid}`} /></div>
-                    <div id="babka"><RecipeGridCards img={data[2].images[0]} name={data[2].name} link={`/interactive-web/explorerecipes/${data[2].uuid}`} /></div>
-                    <div id="syrup"><RecipeGridCards img={data[3].images[0]} name={data[3].name} link={`/interactive-web/explorerecipes/${data[3].uuid}`} /></div>
-                    <div id="banoffee-pie"><RecipeGridCards img={data[4].images[0]} name={data[4].name} link={`/interactive-web/explorerecipes/${data[4].uuid}`} /></div>
-                    <div id="yumyum"><RecipeGridCards img={data[5].images[0]} name={data[5].name} link={`/interactive-web/explorerecipes/${data[5].uuid}`} /></div>
-                    <div id="scones"><RecipeGridCards img={data[6].images[0]} name={data[6].name} link={`/interactive-web/explorerecipes/${data[6].uuid}`} /></div>
+                    <div id="mince-pies"><RecipeGridCards img={data[0].images[0]} name={data[0].name} link={`/explorerecipes/${data[0].uuid}`} /></div>
+                    <div id="burger-buns"><RecipeGridCards img={data[1].images[0]} name={data[1].name} link={`/explorerecipes/${data[1].uuid}`} /></div>
+                    <div id="babka"><RecipeGridCards img={data[2].images[0]} name={data[2].name} link={`/explorerecipes/${data[2].uuid}`} /></div>
+                    <div id="syrup"><RecipeGridCards img={data[3].images[0]} name={data[3].name} link={`/explorerecipes/${data[3].uuid}`} /></div>
+                    <div id="banoffee-pie"><RecipeGridCards img={data[4].images[0]} name={data[4].name} link={`/explorerecipes/${data[4].uuid}`} /></div>
+                    <div id="yumyum"><RecipeGridCards img={data[5].images[0]} name={data[5].name} link={`/explorerecipes/${data[5].uuid}`} /></div>
+                    <div id="scones"><RecipeGridCards img={data[6].images[0]} name={data[6].name} link={`/explorerecipes/${data[6].uuid}`} /></div>
                 </div>
             </div>
         </div>
