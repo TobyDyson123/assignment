@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import data from './recipes.json';
+import './RecipePage.css';
+import RecipeAccordion from "./RecipeAccordion";
 
 function RecipePage() {
     let { postSlug } = useParams();
@@ -25,9 +27,18 @@ function RecipePage() {
     }
 
     return (
-        <div>
-            <h1>Recipe Name:</h1>
-            <h3>{Name}</h3>
+        <div className="recipepage-container">
+            <div className="recipepage-info-container">
+                <img className="recipepage-image" src={Image} alt={Name} />
+                <div className="recipepage-info">
+                    <h1>{Name}</h1>
+                    <p><b>Author:</b> {Author}</p>
+                    <p><b>Difficulty:</b> {Difficulty}</p>
+                </div>
+            </div>
+            <div className="recipepage-accordion-container">
+                <RecipeAccordion />
+            </div>
         </div>
     )
 }
