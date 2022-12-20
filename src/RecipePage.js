@@ -15,7 +15,12 @@ function RecipePage() {
         var r = recipe[i];
         if (r.uuid === postSlug) {
             var Name = r.name;
-            //other recipe details here
+            var Author = r.author;
+            var Difficulty = r.difficulty;
+            var Image = r.images[0];
+            var Ingredients = r.ingredients;
+            var Nutrition = r.nutrition;
+            var Directions = r.Directions; 
         }
     }
 
