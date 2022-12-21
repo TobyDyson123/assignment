@@ -54,6 +54,28 @@
     color: #111 !important;
 }
 
+.recipepage-container h3 {
+    margin: 50px 50px 0 50px;
+    background-color: #FF80C4;
+    padding: 10px 20px;
+}
+
+.related-recipes-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 50px 50px; 
+    grid-template-areas: 
+        ". . ."
+        ". . .";
+    margin: 0px 50px;
+    background-color: #FFF;
+}
+
+.related-recipes-container li {
+    margin: 20px 20px;
+}
+
 @media screen and (max-width: 1400px) {
     .recipepage-info-container {
         grid-template-columns: 1fr; 

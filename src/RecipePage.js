@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import data from './recipes.json';
 import './RecipePage.css';
 import RecipeAccordion from "./RecipeAccordion";
+import { Link } from 'react-router-dom';
 
 function RecipePage() {
     let { postSlug } = useParams();
@@ -22,11 +23,32 @@ function RecipePage() {
             var Image = r.images[0];
             var Ingredients = r.ingredients;
             var Nutrition = r.nutrition;
-            var Directions = r.instructions; 
+            var Directions = r.instructions;
+            var Categories = r.categories;
         }
     }
 
     window.scrollTo({top: 0, behavior: "auto"});
+
+    function displayRelatedRecipes(categoryList, allRecipes) {
+        const relatedList = [];
+        for (var i = 0; i < allRecipes.length; i++) {
+            var r = allRecipes[i];
+            if (categoryList.some(item => r.categories.includes(item)) && !(r.uuid === postSlug)) {
+                relatedList.push(r);
+            }
+        }
+        
+        const listItems = relatedList.map((item) =>
+        <li key={item.id}>
+            <Link to={`/explorerecipes/${item.uuid}`}>{item.name}</Link> 
+        </li>
+        );
+
+        return (
+        <ul>{listItems}</ul>
+        );
+    }
 
     return (
         <div className="recipepage-container">
@@ -40,6 +62,10 @@ function RecipePage() {
             </div>
             <div className="recipepage-accordion-container">
                 <RecipeAccordion ingredients={Ingredients} nutrition={Nutrition} directions={Directions} />
+            </div>
+            <h3>Related Recipes</h3>
+            <div className="related-recipes-container">
+                {displayRelatedRecipes(Categories, recipe)}
             </div>
         </div>
     )
