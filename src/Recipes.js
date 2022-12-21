@@ -101,8 +101,7 @@ function Recipes() {
         scones.style.display = "none";
     }
 
-
-
+    window.scrollTo({top: 0, behavior: "auto"});
     return (
         <div className="explore-recipes">
             <h1>Explore Recipes</h1>

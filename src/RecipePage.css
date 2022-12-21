@@ -16,15 +16,18 @@
 
 .recipepage-info {
     background-color: #FFF;
+    border-radius: 5px;
 }
 
 .recipepage-image {
     width: 100%;
+    border-radius: 5px;
 }
 
 .recipepage-info h1 {
     background-color: #FF80C4;
     padding: 10px 30px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .recipepage-info p {
@@ -54,10 +57,11 @@
     color: #111 !important;
 }
 
-.recipepage-container h3 {
+.recipepage-container h4 {
     margin: 50px 50px 0 50px;
     background-color: #FF80C4;
     padding: 10px 20px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .related-recipes-container {
@@ -70,6 +74,7 @@
         ". . .";
     margin: 0px 50px;
     background-color: #FFF;
+    border-radius: 5px;
 }
 
 .related-recipes-container li {
@@ -84,11 +89,29 @@
             ".";
         margin-right: 100px;
     }
+
+    .related-recipes-container {
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+            ". ."
+            ". ."
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .recipepage-info-container {
         margin-left: 50px;
         margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .related-recipes-container {
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+            "."
+            ".";
     }
 }

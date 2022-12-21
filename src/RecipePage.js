@@ -63,7 +63,7 @@ function RecipePage() {
             <div className="recipepage-accordion-container">
                 <RecipeAccordion ingredients={Ingredients} nutrition={Nutrition} directions={Directions} />
             </div>
-            <h3>Related Recipes</h3>
+            <h4>Related Recipes</h4>
             <div className="related-recipes-container">
                 {displayRelatedRecipes(Categories, recipe)}
             </div>
