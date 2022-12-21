@@ -5,6 +5,7 @@ import ScrollButton from './scrolltotop';
 import CollapsibleExample from './test.js';
 
 function Home() {
+    window.scrollTo({top: 0, behavior: "auto"});
     return (
         <div className='Home'>
             <CollapsibleExample />

@@ -26,6 +26,8 @@ function RecipePage() {
         }
     }
 
+    window.scrollTo({top: 0, behavior: "auto"});
+
     return (
         <div className="recipepage-container">
             <div className="recipepage-info-container">
