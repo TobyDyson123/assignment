@@ -22,7 +22,7 @@ function RecipePage() {
             var Image = r.images[0];
             var Ingredients = r.ingredients;
             var Nutrition = r.nutrition;
-            var Directions = r.Directions; 
+            var Directions = r.instructions; 
         }
     }
 
@@ -37,7 +37,7 @@ function RecipePage() {
                 </div>
             </div>
             <div className="recipepage-accordion-container">
-                <RecipeAccordion />
+                <RecipeAccordion ingredients={Ingredients} nutrition={Nutrition} directions={Directions} />
             </div>
         </div>
     )
