@@ -2,6 +2,7 @@ import CollapsibleExample from "./test.js";
 import Footer from './footer.js';
 
 function CustomRecipes() {
+    window.scrollTo({top: 0, behavior: "auto"});
     return(
         <div className="custom-recipes">
             <CollapsibleExample />
