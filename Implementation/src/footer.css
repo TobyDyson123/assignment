@@ -1,0 +1,36 @@
+.footer {
+    background-color: #664242;
+    color: #F3F3F3;
+    padding: 70px 30px;
+    width: 100%;
+}
+  
+.social-media-container {
+    position: relative;
+}
+  
+.social-media-container a {
+    margin: 10px 50px;
+    font-size: 120px;
+    color: #F3F3F3;
+    top: 0px;
+    transition: top ease 0.2s;
+}
+  
+.social-media-container a:hover {
+    color: #999;
+    top: -10px;
+}
+
+.logo-white {
+    position: absolute;
+    right: 60px;
+    bottom: 0px;
+    width: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo-white {
+        display: none;
+    }
+}

@@ -1,0 +1,1256 @@
+{
+  "id": "6c1a9334-f335-4fed-a6c5-15fa538e858a",
+  "version": "2.0",
+  "name": "Interactive Web",
+  "url": "https://tobydyson123.github.io/interactive-web",
+  "tests": [{
+    "id": "3f1985b8-ff97-4c10-8b84-b22cbed882ef",
+    "name": "Check if all pages can be navigated on desktop",
+    "commands": [{
+      "id": "83c76cde-ec81-43d6-85d7-d3e35cdc9219",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82746529-786a-404e-b869-31fcf0563ebd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96acf321-ccfb-49d9-8695-723a81d283cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0484326b-1caf-488a-9052-d7e6d4286b6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Use up your Leftovers",
+      "targets": [
+        ["linkText=Use up your Leftovers", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Use up your Leftovers')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/leftovers')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Use up your Leftovers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "289cfc42-09b1-4fb9-b047-b6459bd5f058",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Build Custom Recipes",
+      "targets": [
+        ["linkText=Build Custom Recipes", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Build Custom Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/customrecipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Build Custom Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad0da2d2-9fe9-4f52-8c6d-a68387440911",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Baking!')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c78af7c2-7fe3-4bd7-b91a-6259b3cfde0a",
+    "name": "Check if all pages can be navigated on mobile",
+    "commands": [{
+      "id": "0544d17d-b9e0-4c06-88ff-5bc3b1d2eff4",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3894677a-9352-41de-9b49-c1c56fb8bc24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10f3294b-f8cf-4274-a96c-608ebd24212d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "519c94a9-d968-4a00-9820-5df6a4958b7e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f64571-959b-4529-9ce3-9ec7b6744dd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "120f964e-d2e0-4d3b-98ed-4f9f08fc7c5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Use up your Leftovers",
+      "targets": [
+        ["linkText=Use up your Leftovers", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Use up your Leftovers')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/leftovers')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Use up your Leftovers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce1ad4e-d5eb-44e2-a144-ef1f22951562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0a0ff79-c4fb-408b-9960-b25137fe3ee4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Build Custom Recipes",
+      "targets": [
+        ["linkText=Build Custom Recipes", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Build Custom Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/customrecipes')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Build Custom Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e622ee8a-cc6e-486a-bd9c-9852d666e504",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5756312-692e-4413-85d9-c36cfb0d4614",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Baking!",
+      "targets": [
+        ["linkText=Get Baking!", "linkText"],
+        ["css=.navbar-brand", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Baking!')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Baking!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c56b8d47-b686-4450-93da-e1e7ed9dff58",
+    "name": "Check if about text is displayed on homepage on desktop",
+    "commands": [{
+      "id": "736b30ed-a7de-4d13-9531-76f27d4f2618",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "025aea41-b30f-43fe-9a97-13dd9e523cae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c0a1670-75a3-4608-add8-8a9de2e6bc41",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.about-text",
+      "targets": [
+        ["css=.about-text", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Get Baking! is an organisation who are on a mission to get more people to bake at home. So if you are interested in baking or want to learn more about the exciting recipes available then look no further!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "414eae12-62df-4b73-ba3c-c4578fee5d9f",
+    "name": "Check if about text is displayed on homepage on mobile",
+    "commands": [{
+      "id": "9d2cdb96-68fd-4c55-926f-fd25772839c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70085085-698e-4b07-b735-bb4c2982ddf7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f046f07b-7ac1-43b2-8a87-c2feb12e09fc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.about-text",
+      "targets": [
+        ["css=.about-text", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Get Baking! is an organisation who are on a mission to get more people to bake at home. So if you are interested in baking or want to learn more about the exciting recipes available then look no further!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "24c7280b-e1bf-4955-887e-a16f3bbe8266",
+    "name": "Check if begin button scrolls down on desktop",
+    "commands": [{
+      "id": "32a56147-2aca-4a68-a7ee-e3c2fbdc1ffe",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebc66eaa-3770-4f1e-a875-3cb1200a4930",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1341x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11cbfe1f-f5ef-4213-866a-cdafd891cf6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.begin-button",
+      "targets": [
+        ["css=.begin-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a48568a1-5131-41ff-8f30-0fcfbc4def0b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Home",
+      "targets": [
+        ["css=.Home", "css:finder"],
+        ["xpath=//div[@id='root']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b98904b-8079-4647-b4cb-224fb164eb4f",
+    "name": "Check if begin button scrolls down on mobile",
+    "commands": [{
+      "id": "0034e9c7-eaa2-40f6-9d1e-b0207d31e99e",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35c870dc-46ac-4808-9174-2a57c84779e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "528ac910-0da6-4b88-a436-6274e0ae82bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.begin-button",
+      "targets": [
+        ["css=.begin-button", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80fba0e6-4537-46cd-84f2-0ad9e1bcc5d2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.Home",
+      "targets": [
+        ["css=.Home", "css:finder"],
+        ["xpath=//div[@id='root']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "459eb942-a154-4ea4-b3f5-ea5e02b52807",
+    "name": "Check if recipes are displayed on desktop",
+    "commands": [{
+      "id": "ce42e536-233c-428c-b4e2-655b2827a635",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df6b05da-565c-46ad-bf82-070c322def3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1398x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d65d46a-1df6-4df4-bb81-99c95d0370d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "653de8a2-dbff-4729-8743-3167d529c4f9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#mince-pies img",
+      "targets": [
+        ["css=#mince-pies img", "css:finder"],
+        ["xpath=//img[@alt='Easy Mince Pies']", "xpath:img"],
+        ["xpath=//div[@id='mince-pies']/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3764a22a-4abc-497e-a68c-bffdfbcf779d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#burger-buns img",
+      "targets": [
+        ["css=#burger-buns img", "css:finder"],
+        ["xpath=//img[@alt='Soft Burger Buns']", "xpath:img"],
+        ["xpath=//div[@id='burger-buns']/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e39ef3d-f54c-4ba7-a037-f830408003bc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#babka img",
+      "targets": [
+        ["css=#babka img", "css:finder"],
+        ["xpath=//img[@alt='Chocolate Orange Babka']", "xpath:img"],
+        ["xpath=//div[@id='babka']/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc722141-b4b2-4817-a7d0-9100b9c720c7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#syrup img",
+      "targets": [
+        ["css=#syrup img", "css:finder"],
+        ["xpath=//img[@alt='Orange Syrup']", "xpath:img"],
+        ["xpath=//div[@id='syrup']/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f91c197-6e23-43e8-a3d6-83a059a57f7c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#banoffee-pie img",
+      "targets": [
+        ["css=#banoffee-pie img", "css:finder"],
+        ["xpath=//img[@alt='Banoffee Pie']", "xpath:img"],
+        ["xpath=//div[@id='banoffee-pie']/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "043b28fe-7171-4846-9bd9-ca0c7cd5abcc",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#yumyum img",
+      "targets": [
+        ["css=#yumyum img", "css:finder"],
+        ["xpath=//img[@alt='Yum Yums']", "xpath:img"],
+        ["xpath=//div[@id='yumyum']/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97d7e3f2-9bea-4610-b37c-3c947dc3ef24",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#scones img",
+      "targets": [
+        ["css=#scones img", "css:finder"],
+        ["xpath=//img[@alt='Classic Scones with Jam & Clotted Cream']", "xpath:img"],
+        ["xpath=//div[@id='scones']/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "449bb500-00da-4570-8d3b-08853b95341f",
+    "name": "Check if recipes are displayed on mobile",
+    "commands": [{
+      "id": "60353b44-24fb-49b9-9c32-c8974816f3e7",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "578fc130-19a7-40d9-bccb-12dd50519e93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e73f096-92bc-4758-bb4d-5ddc5e0db4da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e52b64-3b63-4b8d-8417-fad51cf5d7af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd2117c7-c323-4802-a4e4-35810abf825a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#mince-pies img",
+      "targets": [
+        ["css=#mince-pies img", "css:finder"],
+        ["xpath=//img[@alt='Easy Mince Pies']", "xpath:img"],
+        ["xpath=//div[@id='mince-pies']/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5ed293-838a-4577-a33b-d1ea60f64d41",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#burger-buns img",
+      "targets": [
+        ["css=#burger-buns img", "css:finder"],
+        ["xpath=//img[@alt='Soft Burger Buns']", "xpath:img"],
+        ["xpath=//div[@id='burger-buns']/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe1e82e-5993-4e6b-8d75-f446ee86aa18",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#babka img",
+      "targets": [
+        ["css=#babka img", "css:finder"],
+        ["xpath=//img[@alt='Chocolate Orange Babka']", "xpath:img"],
+        ["xpath=//div[@id='babka']/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a19aa5cb-d5b5-43cf-9b98-c492f96b7dec",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#syrup img",
+      "targets": [
+        ["css=#syrup img", "css:finder"],
+        ["xpath=//img[@alt='Orange Syrup']", "xpath:img"],
+        ["xpath=//div[@id='syrup']/div/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1810f1aa-11e6-4895-a76f-91a5df3a23a4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#banoffee-pie img",
+      "targets": [
+        ["css=#banoffee-pie img", "css:finder"],
+        ["xpath=//img[@alt='Banoffee Pie']", "xpath:img"],
+        ["xpath=//div[@id='banoffee-pie']/div/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f2ef9c-a6c2-4959-b108-c550800aaeb2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#yumyum img",
+      "targets": [
+        ["css=#yumyum img", "css:finder"],
+        ["xpath=//img[@alt='Yum Yums']", "xpath:img"],
+        ["xpath=//div[@id='yumyum']/div/img", "xpath:idRelative"],
+        ["xpath=//div[6]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0b2743-83b9-4ffe-9694-7875e23a0a24",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#scones img",
+      "targets": [
+        ["css=#scones img", "css:finder"],
+        ["xpath=//img[@alt='Classic Scones with Jam & Clotted Cream']", "xpath:img"],
+        ["xpath=//div[@id='scones']/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2ddd8fb8-fb5e-4b96-949a-c1c56f7a49ee",
+    "name": "Check if recipe buttons navigate to correct pages on desktop",
+    "commands": [{
+      "id": "1b652bf5-f802-45b7-9ac3-ee1588b3895e",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91d92966-cab6-43ed-b55d-b215a0d17605",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26921139-5441-4861-8596-b38eb24b2ea7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "061c486a-235b-4da5-b330-c7446194769a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mince-pies button",
+      "targets": [
+        ["css=#mince-pies button", "css:finder"],
+        ["xpath=//div[@id='mince-pies']/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34584656-08cb-46fe-822a-aa150bf04bc6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Easy Mince Pies')]", "xpath:innerText"]
+      ],
+      "value": "Easy Mince Pies"
+    }, {
+      "id": "e019c21f-0e80-4da8-95bc-0204d27576e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "291faf19-d714-46a4-bf5c-bfc9a9849c11",
+      "comment": "",
+      "command": "click",
+      "target": "css=#burger-buns button",
+      "targets": [
+        ["css=#burger-buns button", "css:finder"],
+        ["xpath=//div[@id='burger-buns']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca9194b-6e40-4d80-aa7d-35291df2f18c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": "Soft Burger Buns"
+    }, {
+      "id": "2ecadae1-c69a-44a1-9bf6-f3a6d18fc37e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab0655b6-dc11-4860-a8af-4f517eadbccc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#babka button",
+      "targets": [
+        ["css=#babka button", "css:finder"],
+        ["xpath=//div[@id='babka']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ada3304b-f378-43eb-a82e-8eb4e798ee4e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Chocolate Orange Babka')]", "xpath:innerText"]
+      ],
+      "value": "Chocolate Orange Babka"
+    }, {
+      "id": "1d4b57b7-a8df-4df7-a498-c68c14431e6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "178e30c3-a0e9-4114-81a2-fe860ab2d123",
+      "comment": "",
+      "command": "click",
+      "target": "css=#syrup button",
+      "targets": [
+        ["css=#syrup button", "css:finder"],
+        ["xpath=//div[@id='syrup']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32045ed4-d9d5-4e53-a41b-d9831afe6f1c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Orange Syrup')]", "xpath:innerText"]
+      ],
+      "value": "Orange Syrup"
+    }, {
+      "id": "a0ff1b35-82c1-40cb-a30e-a0b05073e69a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b7bb26a-fcc4-4014-a7df-84d8d4d86d8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#banoffee-pie button",
+      "targets": [
+        ["css=#banoffee-pie button", "css:finder"],
+        ["xpath=//div[@id='banoffee-pie']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "006586d7-f27d-4924-98e5-af61de59fec7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Banoffee Pie')]", "xpath:innerText"]
+      ],
+      "value": "Banoffee Pie"
+    }, {
+      "id": "a650d7a1-906b-44ae-bb6f-c813872c661c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3a8d33-3f16-4ec5-850d-fcf7564c10ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#yumyum button",
+      "targets": [
+        ["css=#yumyum button", "css:finder"],
+        ["xpath=//div[@id='yumyum']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "115f5e45-0e06-4dd7-84a6-b07356ecfc40",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Yum Yums')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "914c11f0-86d3-47f7-aea8-f8b54154e000",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ac99f60-d4d7-4974-9e68-abd17c89cdf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#scones button",
+      "targets": [
+        ["css=#scones button", "css:finder"],
+        ["xpath=//div[@id='scones']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a1ebd67-5965-4cb9-8f33-f50640f5d830",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Classic Scones with Jam & Clotted Cream')]", "xpath:innerText"]
+      ],
+      "value": "Classic Scones with Jam & Clotted Cream"
+    }]
+  }, {
+    "id": "5fbf8d70-bd9d-48d2-bdcc-9763a641d57c",
+    "name": "Check if recipe buttons navigate to correct pages on mobile",
+    "commands": [{
+      "id": "5c61bbe4-9fab-4c04-bd4c-3e1581fc59da",
+      "comment": "",
+      "command": "open",
+      "target": "https://tobydyson123.github.io/interactive-web/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7effe015-9d5b-485e-9b5d-c6adc4c6a85a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x806",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b09569d-5998-4e9f-90cf-6a2c74b65b38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1fc5583-8ce4-4e96-952b-5590ef13d9b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "debeac0f-65e3-4711-80b0-0133a489983d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mince-pies button",
+      "targets": [
+        ["css=#mince-pies button", "css:finder"],
+        ["xpath=//div[@id='mince-pies']/div/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get Baking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d94d93c-a48e-41e3-add7-1257ce0cdc2f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Easy Mince Pies')]", "xpath:innerText"]
+      ],
+      "value": "Easy Mince Pies"
+    }, {
+      "id": "960b5c60-4d62-47e6-8ec8-ed49ba54f0e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3c3544c-6699-4057-a535-e20da4184da1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.nav-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddb05ada-b2fe-474c-ae33-947e23558f35",
+      "comment": "",
+      "command": "click",
+      "target": "css=#burger-buns button",
+      "targets": [
+        ["css=#burger-buns button", "css:finder"],
+        ["xpath=//div[@id='burger-buns']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a67554-23eb-4cbe-baed-0a4814da9a3f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Soft Burger Buns')]", "xpath:innerText"]
+      ],
+      "value": "Soft Burger Buns"
+    }, {
+      "id": "f11c0e99-8893-43a5-adb2-965b20ff189d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50fc2e59-d0dc-4409-b8e2-7c667289a27f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "417d2207-0ecb-4530-a875-b1de3cd0188f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#babka button",
+      "targets": [
+        ["css=#babka button", "css:finder"],
+        ["xpath=//div[@id='babka']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78db8531-0bee-4a3c-8b4e-6f8036ccaafa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Chocolate Orange Babka')]", "xpath:innerText"]
+      ],
+      "value": "Chocolate Orange Babka"
+    }, {
+      "id": "fc4c263d-694b-4224-9865-1e68edfb0df9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee56d652-3a9b-4bb9-ab54-919f330649c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ff44dc7-9da8-4402-b7a3-92741dbecbcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#syrup button",
+      "targets": [
+        ["css=#syrup button", "css:finder"],
+        ["xpath=//div[@id='syrup']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "328c9cbb-8837-40af-819d-01e55b09fad6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Orange Syrup')]", "xpath:innerText"]
+      ],
+      "value": "Orange Syrup"
+    }, {
+      "id": "a8523b97-ae74-4da5-abf0-5401c9397007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20b0d81f-18bf-4ade-9ce7-d98844da74f3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5215add8-9c11-4a1b-9ad1-4158856b6ed5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#banoffee-pie button",
+      "targets": [
+        ["css=#banoffee-pie button", "css:finder"],
+        ["xpath=//div[@id='banoffee-pie']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a0e412-e586-41c8-b76f-bd83f793d7da",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Banoffee Pie')]", "xpath:innerText"]
+      ],
+      "value": "Banoffee Pie"
+    }, {
+      "id": "6f130487-a3ef-4999-b356-ad9484076041",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a44ec4f-9b49-4a8c-9c35-d8f0a2663d0f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "150c7d5d-afa7-4cbc-9bd6-af5b84156e08",
+      "comment": "",
+      "command": "click",
+      "target": "css=#yumyum button",
+      "targets": [
+        ["css=#yumyum button", "css:finder"],
+        ["xpath=//div[@id='yumyum']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14f6f2fe-4256-4e94-8481-87b25a1fc8b2",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Yum Yums')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d2cf2e-6536-4bfa-929e-0ed61e203899",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/nav/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4c2ab41-540d-4bc7-9ae8-652c19646205",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Recipes",
+      "targets": [
+        ["linkText=Explore Recipes", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Recipes')]", "xpath:link"],
+        ["xpath=//div[@id='responsive-navbar-nav']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/interactive-web/explorerecipes')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Recipes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9082e81-c00d-4df3-a198-039437a862c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#scones button",
+      "targets": [
+        ["css=#scones button", "css:finder"],
+        ["xpath=//div[@id='scones']/div/a/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad16d14-8fe5-4a47-ba30-c517a45ada09",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Classic Scones with Jam & Clotted Cream')]", "xpath:innerText"]
+      ],
+      "value": "Classic Scones with Jam & Clotted Cream"
+    }]
+  }],
+  "suites": [{
+    "id": "12901851-4bbf-4496-a644-0b4bed49f73f",
+    "name": "Desktop View",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3f1985b8-ff97-4c10-8b84-b22cbed882ef", "c56b8d47-b686-4450-93da-e1e7ed9dff58", "24c7280b-e1bf-4955-887e-a16f3bbe8266", "459eb942-a154-4ea4-b3f5-ea5e02b52807", "2ddd8fb8-fb5e-4b96-949a-c1c56f7a49ee"]
+  }, {
+    "id": "924d67f8-b57c-482d-9610-56fa7bd44f5a",
+    "name": "Mobile View",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c78af7c2-7fe3-4bd7-b91a-6259b3cfde0a", "414eae12-62df-4b73-ba3c-c4578fee5d9f", "6b98904b-8079-4647-b4cb-224fb164eb4f", "449bb500-00da-4570-8d3b-08853b95341f", "5fbf8d70-bd9d-48d2-bdcc-9763a641d57c"]
+  }],
+  "urls": ["https://tobydyson123.github.io/interactive-web"],
+  "plugins": []
+}
