@@ -18,7 +18,7 @@ Documentation contains:
 * Axure RP file which includes the high-fidelity prototype
 * Selenium File which contains the full test suite
 
-All documented points are outlined within the full documentation\
+All documented points are outlined within the full documentation
 
 
 
