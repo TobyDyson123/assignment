@@ -19,3 +19,7 @@ Documentation contains:
 * Selenium File which contains the full test suite
 
 All documented points are outlined within the full documentation
+
+## Get Baking!
+
+Get Baking! is an organisation aiming to encourage more people to bake at home. They are looking for a website to be developed and have provided a basic brief of they key features they are hoping to see included.
