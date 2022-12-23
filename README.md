@@ -22,6 +22,6 @@ All documented points are outlined within the full documentation
 
 
 
-### Get Baking!
+# Get Baking!
 
 Get Baking! is an organisation aiming to encourage more people to bake at home and are looking for a website to be developed.
